@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Castiga Bani</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0b1020;color:white;font-family:Arial,sans-serif}
+header{padding:22px 16px;background:#111a2e;border-bottom:2px solid #24df85}
+header h1{margin:0;color:#24df85}
+nav{margin-top:18px;display:flex;gap:18px;flex-wrap:wrap}
+a{color:#24df85;text-decoration:none}
+main{max-width:850px;margin:auto;padding:20px 15px}
+.hero{background:linear-gradient(135deg,#173b37,#172443);padding:28px 20px;border-radius:18px}
+.hero h2{font-size:30px}
+button{border:0;background:#24df85;color:#07150e;font-weight:bold;padding:13px 18px;border-radius:9px;font-size:15px}
+.section-title{margin-top:30px}
+.card{background:#141e33;border:1px solid #2b3a52;padding:18px;border-radius:14px;margin:14px 0}
+.card h3{margin-top:0;color:#24df85}
+footer{text-align:center;padding:25px;color:#aab5c9}
+</style>
+</head>
+<body>
+<header>
+<h1>💰 Câștigă Bani</h1>
+<p>Idei. Proiecte. Oportunități.</p>
+<nav>
+<a href="#acasă">Acasă</a>
+<a href="#idei">Idei</a>
+<a href="#ghiduri">Ghiduri</a>
+<a href="#despre">Despre</a>
+</nav>
+</header>
+<main>
+<section class="hero" id="acasă">
+<h2>Descoperă noi oportunități!</h2>
+<p>Învață lucruri utile, descoperă proiecte online și găsește idei pentru viitorul tău.</p>
+<button onclick="document.getElementById('idei').scrollIntoView({behavior:'smooth'})">Descoperă ideile</button>
+</section>
+<section id="idei">
+<h2 class="section-title">💡 Idei de proiecte</h2>
+<div class="card">
+<h3>🌐 Creează un site</h3>
+<p>Învață să construiești pagini web și să-ți dezvolți propriile proiecte.</p>
+</div>
+<div class="card">
+<h3>🎨 Creează produse digitale</h3>
+<p>Descoperă cum poți realiza desene, modele și materiale digitale originale.</p>
+</div>
+<div class="card">
+<h3>💻 Învață programare</h3>
+<p>Începe cu HTML, CSS și JavaScript pentru a crea proiecte interesante.</p>
+</div>
+</section>
+<section id="ghiduri">
+<h2 class="section-title">📚 Ghiduri gratuite</h2>
+<div class="card">
+<h3>Primii pași online</h3>
+<p>Începe cu abilități digitale și proiecte simple. Vom adăuga ghiduri detaliate.</p>
+</div>
+</section>
+<section id="despre">
+<h2 class="section-title">Despre site</h2>
+<p>Câștigă Bani este un proiect despre învățare, creativitate și oportunități online.</p>
+<p>Informațiile de pe site nu garantează câștiguri financiare.</p>
+</section>
+</main>
+<footer>© 2026 Câștigă Bani</footer>
+</body>
+</html>
